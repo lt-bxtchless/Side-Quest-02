@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Libre Baskerville, sans-serif;
+}
+div{
+    width: 50%;
+    margin: 5% 25%;
+}
+img
+{
+    width: 100%;
+    height: 100%;
+    margin: 10px 0px;
+    border: 5px solid white;
+    
+}
+h1
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin: 20px 0;
+    
+}
+#haha{
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 1rem;
+}
+#hehe
+{
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+    font-size: .9rem;
+}
+@media only screen  and (max-width: 600px) {
+    div{
+        width: 80%;
+        margin: 50% 10%; 
+    }
+    h1
+    {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        margin: 15px 0; 
+    }
+    img
+    {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        border: 5px solid white;
+        
+    }
+    #haha{
+        text-align: center;
+        margin: 0px 0px 15px 0px;
+        font-size: .6rem;
+    }
+    #hehe
+    {
+        text-align: center;
+        margin: 0px 0px 15px 0px;
+        font-size: .5rem;
+    }
+}

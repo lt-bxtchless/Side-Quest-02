@@ -41,9 +41,10 @@ h1
     }
     h1
     {
+        display: block;
         text-align: center;
         text-transform: uppercase;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         margin: 15px 0; 
     }
     img
